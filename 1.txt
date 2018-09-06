@@ -1,0 +1,8 @@
+1、初始化本地文件 git init
+2、git add +修改过的文件名带后缀
+3、git commit+"描述性文字"
+4、连接远程仓库 git remote add origin+“所在的仓库例如：git@github.com:leobinbin/text3.git”
+5、获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）
+     git pull --rebase origin master
+6、推送到远程
+     git push -u origin master（因为前面已经关联了所以是master否则改写分支名）
